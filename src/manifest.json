@@ -50,7 +50,9 @@
     "*://trac-hacks.org/*",
     "*://*.trac.wordpress.org/*",
     "*://bugs.jquery.com/*",
-    "*://*.wunderlist.com/*"
+    "*://*.wunderlist.com/*",
+    "*://issues.pokemon.com/*",
+    "*://tickets.openroad.ca/*"
   ],
   "icons": {
     "16": "images/icon-16.png",
@@ -89,7 +91,9 @@
         "*://*.trac.wordpress.org/*",
         "*://bugs.jquery.com/*",
         "*://*.wunderlist.com/*",
-        "*://*.toodledo.com/*"
+        "*://*.toodledo.com/*",
+        "*://issues.pokemon.com/*",
+        "*://tickets.openroad.ca/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -162,6 +166,14 @@
       "matches": ["*://*.jira.com/*"],
       "js": ["scripts/content/jira.js"]
     },
+    {
+      "matches": ["*://issues.pokemon.com/*"],
+      "js": ["scripts/content/jira.js"]
+    },
+    {
+      "matches": ["*://tickets.openroad.ca/*"],
+      "js": ["scripts/content/jira.js"]
+    }
     {
       "matches": ["*://*.sifterapp.com/*"],
       "js": ["scripts/content/sifterapp.js"]
