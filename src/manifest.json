@@ -173,7 +173,7 @@
     {
       "matches": ["*://tickets.openroad.ca/*"],
       "js": ["scripts/content/jira.js"]
-    }
+    },
     {
       "matches": ["*://*.sifterapp.com/*"],
       "js": ["scripts/content/sifterapp.js"]
